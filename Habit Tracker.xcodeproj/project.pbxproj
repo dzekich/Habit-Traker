@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		061C03E92F70941500CF89B3 /* Habit Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habit Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		061C03E92F70941500CF89B3 /* NexHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		061C03F62F70941700CF89B3 /* Habit TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habit TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		061C04002F70941700CF89B3 /* Habit TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habit TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 		061C03EA2F70941500CF89B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				061C03E92F70941500CF89B3 /* Habit Tracker.app */,
+				061C03E92F70941500CF89B3 /* NexHabit.app */,
 				061C03F62F70941700CF89B3 /* Habit TrackerTests.xctest */,
 				061C04002F70941700CF89B3 /* Habit TrackerUITests.xctest */,
 			);
@@ -114,7 +114,7 @@
 			packageProductDependencies = (
 			);
 			productName = "Habit Tracker";
-			productReference = 061C03E92F70941500CF89B3 /* Habit Tracker.app */;
+			productReference = 061C03E92F70941500CF89B3 /* NexHabit.app */;
 			productType = "com.apple.product-type.application";
 		};
 		061C03F52F70941700CF89B3 /* Habit TrackerTests */ = {
@@ -398,6 +398,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NexHabit;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -410,7 +411,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.trackerhabit.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NexHabit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -428,6 +429,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NexHabit;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -440,7 +442,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.trackerhabit.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NexHabit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
