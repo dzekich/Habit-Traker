@@ -13,7 +13,6 @@ workflows:
         BUNDLE_ID: "com.trackerhabit.app"
         XCODE_PROJECT: "Habit Tracker.xcodeproj"
         XCODE_SCHEME: "Habit Tracker"
-        APP_STORE_APPLE_ID: ""
       xcode: 16.4
     scripts:
       - name: Set up provisioning profiles settings on Xcode project
