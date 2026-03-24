@@ -7,12 +7,12 @@ workflows:
       app_store_connect: Habit1
     publishing:
       app_store_connect:
-      auth: integration
-      submit_to_testflight: false
-      expire_build_submitted_for_review: true
-      submit_to_app_store: true
-      cancel_previous_submissions: true
-      release_type: SCHEDULED
+        auth: integration
+        submit_to_testflight: false
+        expire_build_submitted_for_review: true
+        submit_to_app_store: true
+        cancel_previous_submissions: true
+        release_type: SCHEDULED
     environment:
       ios_signing:
         distribution_type: app_store # or: habit
