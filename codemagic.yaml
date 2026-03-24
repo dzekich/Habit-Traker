@@ -13,7 +13,7 @@ workflows:
         release_type: SCHEDULED
     environment:
       ios_signing:
-        distribution_type: app_store # or: habit
+        distribution_type: app_store # or: Habit
         bundle_identifier: com.trackerhabit.app
       vars:
         BUNDLE_ID: "com.trackerhabit.app"
